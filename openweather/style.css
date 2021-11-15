@@ -1,0 +1,83 @@
+body{
+	background: rgb(55,74,180);
+background: linear-gradient(90deg, rgba(55,74,180,0.8239670868347339) 0%, rgba(29,253,168,0.8435749299719888) 50%, rgba(252,155,69,0.7511379551820728) 100%);
+font-size: 20px;
+}
+
+.row{
+		margin-top: 60px;
+}
+
+.card{
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #f1b783;
+	min-height: 150px;
+}
+
+.card_weather_title{
+	display: flex;
+    justify-content: space-between;
+	 border: 3px solid #e5aa77;
+	 padding: 15px;
+	 border-radius: 10px;
+	 box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+	 margin: 0 15px 20px 0;
+}
+
+.blok{
+	display: none;
+}
+.card-text{
+	padding: 10px;
+}
+
+.temp{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.temp_main{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.form-control{
+	margin-bottom: 10px;
+}
+
+.list-group{
+	cursor: pointer;
+}
+
+.list-group-item:hover{
+	background-color: #5c6bb6;
+}
+
+.list-group-item:active{
+	background-color: #6271b8;
+}
+
+.btn{
+	background-color: #6d79b8;
+	border-color: #6d79b8;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: blanchedalmond;
+}
+
+.btn:hover{
+	background-color: #5c6bb6;
+	border-color: #5c6bb6;
+}
+
+.card-img-top{
+	width: 150px;
+}
+
+ul{
+	list-style-type: none;
+}
+
