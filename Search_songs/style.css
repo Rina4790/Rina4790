@@ -1,0 +1,52 @@
+body{
+	background-image: url(./image.png);
+	background-repeat: repeat;
+}
+
+.row{
+	margin-top: 20px;
+}
+
+.card{
+	background-color: rgb(252, 208, 33);
+}
+
+.card-text{
+	padding: 10px;
+}
+
+.mt-2{
+	margin: 10px;
+	padding: 10px;
+}
+
+.form-control{
+	margin-bottom: 10px;
+}
+
+.list-group{
+	cursor: pointer;
+}
+
+.list-group-item:hover{
+	background-color: rgba(25, 22, 221, 0.233);
+}
+
+.list-group-item:active{
+	background-color: rgba(25, 22, 221, 0.384);
+}
+
+.btn{
+	background-color: rgb(228, 68, 47);
+	border-color: rgb(228, 68, 47);
+	margin-bottom: 10px;
+}
+
+.btn:hover{
+	background-color: rgb(228, 29, 3);
+	border-color: rgb(228, 68, 47);
+}
+
+.none{
+	display: none;
+}
