@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+
+  margin: 0;
+  background-color: rgba(122, 144, 146, 0.473);
+}
+
+.cards-sources {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.slide {
+  flex: 1;
+  height: 80vh;
+  border-radius: 20px;
+  cursor: pointer;
+  color: rgb(27, 21, 21);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 0.8s ease-in-out;
+}
+
+.slide h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  text-shadow: 1px 1px 2px rgb(250, 250, 250), 0 0 1em rgb(245, 245, 247),
+    0 0 0.2em rgb(162, 162, 212);
+  font-size: 24px;
+  margin: 0;
+  opacity: 0;
+}
+
+.slide.active {
+  flex: 10;
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
