@@ -5,3 +5,5 @@
 [rina4790.github.io/Search_songs](https://rina4790.github.io/Search_songs)
 
 [rina4790.github.io/Meal_Finder](https://rina4790.github.io/Meal_Finder)
+
+[rina4790.github.io/slides](https://rina4790.github.io/slides)
